@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <title>Luke's Gallery</title>
+    <link rel="stylesheet" type="type='text/css" href="style.css" media="screen" /> 
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="lukegallery.js"></script>
+</head>
+<body>
+
+<div class="container text-center title">
+    <form onsubmit="return false;">
+        <label for="text1">Change title:</label>
+        <input type="text" value="" id="newTitle"/>
+        <button onclick="updateTitle('newTitle', 'headline');">updateTitle()</button>
+    </form>
+    
+    <form id="aboutform">
+    Change "About Artist":<br>
+    <input type="text" name="newAbout">
+    <input type="submit" value="Change"><br>
+    </form>
+
+</div>
+
+
+
+
+</body>
+</html>

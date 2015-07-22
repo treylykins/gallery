@@ -1,0 +1,25 @@
+.row {
+	background-color: rgba(230, 230, 230, 1);
+	height: 60%;
+	border-style: solid;
+	border-width: 2px;
+}
+
+img {
+	max-height: 60%;
+	max-width: 50px;
+}
+
+.panel {
+	background-color: rgba(230, 230, 230, 1);
+}
+
+.title {
+	margin-bottom: 5%;
+}
+
+.carousel.inner > .item > img,
+.carousel.inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
